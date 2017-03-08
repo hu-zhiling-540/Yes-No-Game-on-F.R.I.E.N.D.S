@@ -6,6 +6,7 @@ package datastructures;
  *
  */
 public class QsGameTree	{
+	
 	private QsGameNode root;
 	
 
@@ -13,9 +14,8 @@ public class QsGameTree	{
 	 * Default constructor
 	 */
 	public QsGameTree()	{
-		
+		root = null;
 	}
-	
 	
 	
 	/**
@@ -24,7 +24,6 @@ public class QsGameTree	{
 	public QsGameNode getRoot()	{
 		return root;
 	}
-	
 	
 	
 	/**
@@ -36,14 +35,12 @@ public class QsGameTree	{
 	}
 	
 	
-	
 	/**
 	 * If the root node is empty, it is an empty tree.
 	 */
 	public boolean isEmpty()	{
 		return (root==null);
 	}
-	
 	
 	
 	/**
@@ -61,7 +58,6 @@ public class QsGameTree	{
 	}
 	
 	
-	
 	/**
 	 * for inorderTraversal
 	 * a private recursive method
@@ -69,6 +65,7 @@ public class QsGameTree	{
 	 * @param traversal
 	 */
 	private void inorderTraversal(QsGameNode node, SinglyLinkedList<String> traversal)	{
+		
 		if (node!=null)	{
 		// if left exists, try left again
 		if (node.getLeftChild()!=null)
@@ -82,7 +79,6 @@ public class QsGameTree	{
 			inorderTraversal(node.getRightChild(), traversal);
 		}
 	}
-	
 	
 	
 	/**

@@ -7,15 +7,13 @@ import javax.swing.JFrame;
  * @author Zhiling
  *
  */
-public class QsGameApplication 
-{
+public class QsGameApplication	{
 
 	/**
 	 * main method starts the program
 	 * @param args
 	 */
-	public static void main( String[] args )
-	{
+	public static void main( String[] args )	{
 		// create a new JFrame to hold ice cream maker panel
 		JFrame gameFrame = new JFrame(" Questions Game on F.R.I.E.N.D.S");
  
