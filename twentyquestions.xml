@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<question statement="Is it a female character?">
+	<!-- Yes. A female character -->
+	<question statement="Does she have dark hair (dark brown to medium blonde counted)?">	
+		<!-- Yes. Has dark hair. -->	   
+	    <question statement="Has she ever dated Ross?"> 		
+	    	<question statement="Is she a paleontologist?">			<!-- Yes. Has dated Ross. -->
+				<question statement="Has she dated Nobel Prize Winner?">	<!-- Yes. She is a paleontologist. -->
+		   			<answer statement="Charlie" />	<!-- Yes. Dated Nobel Prize Winner. -->
+					<answer statement="Julie" />	<!-- No. Hasn't dated Nobel Prize Winner. -->
+		 		</question>
+		 		<question statement="Has she been married to Ross?" >		<!-- No. She is not a paleontologist. -->
+		 			<answer statement="Rachel" /> 								<!-- Yes. She's married to Ross. -->
+			 		 <question statement="Has she dated Chandler also?">		<!-- No. She hasn't married to Ross. -->
+			    		<answer statement="Janice" />	<!-- Yes. Has dated Chandler also. -->
+			    		<answer statement="Emily" />	<!-- No. Hasn't dated Chandler. -->
+		  			</question>  	
+				</question>
+	    	</question>
+			<question statement="Has she ever dated Chandler?">		<!-- No. Has not dated Ross. -->
+		  		<question statement="Has she been married?">				<!-- Yes. Has dated Chandler. -->
+		  			<question statement="Is she married to Chandler?"> 	<!-- Yes. She's been married. -->
+	    				<answer statement="Monica Geller" /> 							<!-- Yes. She's married to Chandler. -->
+	    				<answer statement="Aurora" />	<!-- No. Not married to Chandler. -->
+	    			</question>
+	    			<question statement="Has she dated Joey?">			<!-- No. She's not married. -->
+	    		    	<question statement="Is she an actor?">								<!-- Yes. She has dated Joey as well. -->
+	    		    		<answer statement="Kathy" />	<!-- Yes. She is an actor. -->
+	    		    		<answer statemen="Ginger" />	<!-- No. She is not an actor. -->
+	    		    	</question>
+	    		    	<question statement="Does she know Chandler at a young age?">		<!-- No. She has not dated Joey. -->
+		    		    	<answer statement="Susie Moss" />						<!-- Yes. She knows Chandler at a young age. -->
+							<question statement="Has Rachel worked for her?">		<!-- No. She doesn't know Chandler at a young age. -->
+								<answer statement="Joanna, Rachel's boss" />			<!-- Yes. Rachel works for her. -->
+								<question statement="Does she talk in the sleep?">		<!-- No. Rachel doesn't work for her. -->
+									<answer statement="Marjorie" />							<!-- Yes. She talks in the sleep. -->
+									<answer statement="Nina, from Chandler's office" />		<!-- No. She doesn't talk in the sleep. -->
+								</question>
+							</question>
+						</question>
+					</question>	
+		  		</question>
+		  		<question statement="Is she related to Joey?">				<!-- No. Has not dated Chandler. -->
+		  			<question statement="Is she an actor?">						   <!-- Yes. She is related to Joey. -->
+		  				<question statement="Has she played in Days of our Lives?">			<!-- Yes. She is an actor. -->
+		  					<answer statement="Kate, left for a soap opera role in LA" />			<!-- Yes. She has played in DOOF. -->
+		  					<answer statement="Jessica, who Drake Ramoray gets brain from" />		<!-- No. She hasn't. -->
+		  				</question>
+		  				<question statement="Has she been a roomate of Joey?">				<!-- No. She is not an actor. -->
+		  					<answer statement="Erika, the stalker fan" />							<!-- Yes. She is a roomate of Joey. -->
+		  					<answer statement="Janine Lecroix, Joey's dancer roommate" />			<!-- No. She isn't a roomate of Joey. -->
+		  				</question>
+		  			</question>
+		  			<question statement="Is she (apparently) married ?">			<!-- No. She is not related to Joey. -->
+		  				<question statement="Is she the wife of Carol?"> 				<!-- Yes. She is married. -->
+		  					<answer statement="Susan" />										<!-- Yes. She is the wife of Carol. -->
+		  					<answer statement="Alice Knight Buffay" />							<!-- No. She is not the wife of Carol. -->
+		  				</question>
+		  				<question statement="Does she sing in the Central Perk?"> 		<!-- No. She is not married. -->
+		  					<answer statement="Stephanie, the musician hired by Terry"/>		<!--Yes. She sings in the Central Perk.-->
+		  					<answer statement="Jill Goodacre, the Victoria's Secret Model" /> 	<!-- No. She doesn't sing in the Central Perk. -->
+		  				</question>
+		  			</question>
+		  		</question>
+			</question>
+		</question>
+		<!-- No. doesn't have dark hair. -->
+  		<question statement ="Has she dated Ross?">
+    		<question statement="Has she ever married to Ross?">  	<!-- Yes. Dated Ross. -->
+	  			<answer statement="Carol" />											<!-- Yes. Has married to Ross. -->
+		  		<question statement="Did Ross go out with her for a long time?">		<!-- No. Hasn't married to Ross. -->
+		  			<question statement="Did Ross break up with her?">				<!-- Yes. Ross went out with her for a long time. -->
+		  				<question statement="Has she been bareheaded?">		<!-- Yes. Ross broke up with her. -->
+		  					<answer statement="Bonnie" />						<!-- Yes. Been bareheaded. -->
+		  					<answer statement="Elizabeth, the student" />		<!-- No. Not bareheaded. -->
+		  				</question>
+		  				<answer statement="Mona" />								<!-- No. Ross didn't break up with her first. -->
+		  			</question>
+		  			<question statement="Is she biologically related to Rachel?">	<!-- No. Ross didn't go out with her long. -->
+		  				<answer statement="Jill Green" />						<!-- Yes. Biologically related to Rachel. -->
+		  				<answer statement="Cheryl, with a messy department" />	<!-- No. Not biologically related to Rachel. -->
+		  			</question>
+		  		</question>
+		  	</question>
+			<question statement="Is she in the acting business?">			<!-- No. Never dated Ross. -->
+				<question statement="Has she dated Chandler?" >					<!-- Yes. In the acting business. -->
+					<answer statement="Cathy" />									<!-- Yes. Dated Chandler.-->
+					<answer statement="Estelle, the agent" />          				<!-- No. Didn't date Chandler. -->
+				</question>
+	 			<question statement="Is she biologically related to Ross?">		<!-- No. Not in the acting business. -->
+		   			<answer statement="Judy Geller" />								<!-- Yes. Biologically related to Ross. -->
+		   			<answer statement="Joanna, Rachel's boss" />					<!-- No. Not biologically related to Ross. -->
+		 		</question>
+			</question>
+		</question>  
+	</question>
+	
+	<!-- No. A male character.-->
+  	<question statement="Does he have dark hair?">
+		<question statement="Has he been married?">
+	 		<question statement="Is he a paleontologist?">
+				<answer statement="Ross Geller" />
+	    		<answer statement="Richard Burke" />
+	 		</question>
+	  		<question statement="Is he an actor?">
+				<answer statement="Joey Tribbiani" />
+				<answer statement="David the Scientist Guy" />
+	  		</question>
+		</question>
+		<question statement ="Has he been married?">
+	 		<question statement="Does he play piano?">
+	   	 		<answer statement="Mike Hannign" />
+				<answer statement="Chandler Bing" />
+	  		</question>
+	 		<question statement="Does he have a crush on Rachel?">
+	    		<answer statement="Gunther" />
+				<answer statement="Nanny Sandy" />
+	  		</question>
+    	</question>
+	</question>
+</question>
