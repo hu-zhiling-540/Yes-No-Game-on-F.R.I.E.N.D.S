@@ -24,11 +24,14 @@ A big fan of Friends? You have some character in mind and I will asks a series o
 			inorderTraversal(node.getRightChild(), traversal);
 		}
 	}
-  
 ## Motivation
 
 This is an extended application from my final project for CS 201 at Mount Holyoke College. 
 
+## Screenshot of Application
+
+![Screenshot_1](https://github.com/hu-zhiling-540/Yes-No-Game-on-F.R.I.E.N.D.S/blob/master/Screen%20Shot%202017-04-21%20at%208.50.03%20PM.png)
+![Screenshot_2](https://github.com/hu-zhiling-540/Yes-No-Game-on-F.R.I.E.N.D.S/blob/master/Screen%20Shot%202017-04-21%20at%208.50.19%20PM.png)
 
 ## Tests
 
